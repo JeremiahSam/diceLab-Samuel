@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1" fx:controller="diceLab.diceController">
+   <children>
+      <ImageView id="diceOne" fx:id="diceOne" fitHeight="150.0" fitWidth="200.0" layoutX="100.0" layoutY="200.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView id="diceTwo" fx:id="diceTwo" fitHeight="150.0" fitWidth="200.0" layoutX="300.0" layoutY="200.0" pickOnBounds="true" preserveRatio="true" />
+      <Button id="rollButton" fx:id="rollButton" layoutX="214.0" layoutY="100.0" mnemonicParsing="false" onAction="#rollButtonListener" onMouseClicked="#rollButtonListener" prefHeight="74.0" prefWidth="173.0" text="Dice Roll!" />
+      <Label fx:id="diceOneLabel" layoutX="186.0" layoutY="276.0" prefHeight="17.0" prefWidth="29.0" />
+      <Label fx:id="diceTwoLabel" layoutX="386.0" layoutY="276.0" />
+   </children>
+</AnchorPane>
